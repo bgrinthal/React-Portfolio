@@ -2,21 +2,24 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className='container'>
+      <div className='row text-center'>
+        <div className='col-sm mt-5'>
+          <h1 className='text-center'>Contact Me</h1>
+        </div>
+      </div>
+      <div className='row text-center'>
+        <div className='col-sm mt-5'>
+
+            <p>Phone: 732-616-8142</p>
+            <p> Email: <a class="c-links" href="mailto:bgrinthal@gmail.com" target="_blank"
+              rel="noopener noreferrer"> bgrinthal@gmail.com</a></p>
+            <p> Github: <a class="c-links" href="https://github.com/bgrinthal" target="_blank"> bgrinthal</a></p>
+            <p> Linkedin: <a class="c-links" href="https://www.linkedin.com/in/benjamin-grinthal-b05003122/"
+              target="_blank"> Benjamin Grinthal</a></p>
+
+        </div>
+      </div>
     </div>
   );
 }

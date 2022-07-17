@@ -1,21 +1,32 @@
 import React from 'react';
 
+const styles = {
+  img: {
+    maxWidth: '250px',
+    width: '100%',
+  }
+};
+
 export default function About() {
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className='container'>
+      <div className='row'>
+        <div className='col-sm-3'>
+          <img src={require("../assets/images/headshot.jpg")} alt="Professional Headshot" style={styles.img} className='mt-5'></img>
+        </div>
+        <div className='col-sm-9 mt-5'>
+          <h1>Benjamin Grinthal</h1>
+          <p>
+            I am a Rutgers University graduate with a bachelors degree in mechanical engineering and a
+            certificate in aerospace engineering. Over the last 10 years I have gained experience in different
+            engineering fields from manufacturing to quality control to design, learning the ins and outs of
+            each job. Through this time, I discovered a growing interest in coding, teaching myself some and
+            eventually enrolling in a Rutgers Coding Bootcamp course. My goal is to take the professional
+            experience aquired from my previous position, along with the knowledge I am gaining from this
+            course, to kickstart my career in coding.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
