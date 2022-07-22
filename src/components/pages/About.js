@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../styles/About.css';
+
 const styles = {
   img: {
     maxWidth: '250px',
@@ -15,7 +17,7 @@ export default function About() {
           <img src={require("../assets/images/headshot.jpg")} alt="Professional Headshot" style={styles.img} className='mt-5'></img>
         </div>
         <div className='col-sm-9 mt-5'>
-          <h1>Benjamin Grinthal</h1>
+          <h1 className='title'>Benjamin Grinthal</h1>
           <p>
             I am a Rutgers University graduate with a bachelors degree in mechanical engineering and a
             certificate in aerospace engineering. Over the last 10 years I have gained experience in different

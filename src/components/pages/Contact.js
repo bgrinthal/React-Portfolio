@@ -1,11 +1,13 @@
 import React from 'react';
 
+import '../../styles/Contact.css';
+
 export default function Contact() {
   return (
     <div className='container'>
       <div className='row text-center'>
         <div className='col-sm mt-5'>
-          <h1 className='text-center'>Contact Me</h1>
+          <h1 className='text-center title'>Contact Me</h1>
         </div>
       </div>
       <div className='row text-center'>

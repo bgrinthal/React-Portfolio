@@ -7,7 +7,8 @@ export default function Projects() {
     <div className='container'>
       <div className='row text-center'>
         <div className='col-sm mt-5'>
-          <h1>Projects</h1>
+          <h1 className='title'>Projects</h1>
+          <p>Below is a list of a few projects I have completed using many different languages and technologies.  For a full list, visit my github profile found on the "Contact Me" tab!</p>
         </div>
       </div>
       <div className='row text-center'>

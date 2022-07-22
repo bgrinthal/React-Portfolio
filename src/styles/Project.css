@@ -26,3 +26,7 @@
 .img:hover {
   box-shadow: -5px -5px grey;
 }
+
+.title {
+  background-color: #E47960;
+}

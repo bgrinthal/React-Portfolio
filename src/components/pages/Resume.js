@@ -1,23 +1,18 @@
 import React from 'react';
 
-const styles = {
-  img: {
-    width: '500px',
-    height: '200px'
-  }
-};
+import '../../styles/Resume.css';
 
 export default function Resume() {
   return (
     <div className='container'>
       <div className='row text-center'>
         <div className='col-sm mt-5'>
-          <h1 className='text-center'>My Resume</h1>
+          <h1 className='text-center title'>Benjamin Grinthal</h1>
         </div>
       </div>
       <div className='row'>
         <div className='col-sm-3 mt-5 mb-5'>
-          <h3 >SKILLS</h3>
+          <h3 className='title'>SKILLS</h3>
           <ul>
             <li>Computer-Aided Design (CAD)</li>
             <li>MATLAB</li>
@@ -40,9 +35,9 @@ export default function Resume() {
           </ul>
         </div>
         <div className='col-sm-9 mt-5 mb-5'>
-          <h3 >PROFESSIONAL SUMMARY</h3>
+          <h3 className='title'>PROFESSIONAL SUMMARY</h3>
           Determined mechanical engineering with over 6 years of experience. Seeking to use proven design, problem-solving, and management skills to excel any position. Collaborative team player with track record of delivering multiple, concurrent projects in fast-paced environments.
-          <h3>RELEVANT EXPERIENCE</h3>
+          <h3 className='title'>RELEVANT EXPERIENCE</h3>
           <h4>Rutgers Coding Bootcamp Certification, 05/2022 to 08/2022</h4>
           <ul>
             <li>3 month intensive course in a variety of programming languages and technologies</li>
@@ -58,7 +53,7 @@ export default function Resume() {
                 professional team using object oriented programing</li>
             </ul>
           </ul>
-          <h3>WORK HISTORY</h3>
+          <h3 className='title'>WORK HISTORY</h3>
           <h4>OSP Engineer 11/2021 to 04/2022 </h4>
           <h4>Verizon - Mount Laurel, NJ</h4>
           <ul>
