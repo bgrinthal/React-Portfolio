@@ -10,9 +10,6 @@
 }
 
 .projectTitle {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: absolute;
   text-align: center;
   margin-left: 15%;

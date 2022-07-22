@@ -34,17 +34,21 @@ export default function Projects() {
           </a>
           <p>Business tracking applications that allows user to add and view deparments, roles, employees, and more.  Uses node.js and MySQL to display and manage data.</p>
         </div>
-        <div className='col-sm-6'>
+        <div className='col-sm-6 relative'>
           <a href='https://note-taker-bg22.herokuapp.com/'>
             <img src={require("../assets/images/notes.jpg")} alt="Note Taker" className='mt-5 img'></img>
+            <h4 className='projectTitle'>Note Taker</h4>
           </a>
+          <p>Note taking applications that allows the user to revord a note title and body.  This note is saved in local storage to be brought up again after the user closes and repoens the page.  Uses node.js, JavaScript and express for routing.</p>
         </div>
       </div>
       <div className='row text-center mb-5'>
-        <div className='col-sm-6'>
+        <div className='col-sm-6 relative'>
           <a href='https://movie-review-site-bg22.herokuapp.com/'>
             <img src={require("../assets/images/movie.jpg")} alt="Movie Review Site" className='mt-5 img'></img>
+            <h4 className='projectTitle'>IMDMe Movie Review</h4>
           </a>
+          <p>.</p>
         </div>
         <div className='col-sm-6'>
           <a href='#'>
