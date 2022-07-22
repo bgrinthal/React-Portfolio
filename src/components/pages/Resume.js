@@ -8,6 +8,7 @@ export default function Resume() {
       <div className='row text-center'>
         <div className='col-sm mt-5'>
           <h1 className='text-center title'>Benjamin Grinthal</h1>
+          <p>Address: 9206 Mount Laurel NJ, 08054  -  Phone: 732-616-8142  -  Email: bgrithal@gmail.com</p>
         </div>
       </div>
       <div className='row'>

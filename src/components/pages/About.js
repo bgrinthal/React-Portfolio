@@ -2,19 +2,14 @@ import React from 'react';
 
 import '../../styles/About.css';
 
-const styles = {
-  img: {
-    maxWidth: '250px',
-    width: '100%',
-  }
-};
+
 
 export default function About() {
   return (
     <div className='container'>
       <div className='row'>
         <div className='col-sm-3'>
-          <img src={require("../assets/images/headshot.jpg")} alt="Professional Headshot" style={styles.img} className='mt-5'></img>
+          <img src={require("../assets/images/headshot.jpg")} alt="Professional Headshot" className='mt-5 headshot'></img>
         </div>
         <div className='col-sm-9 mt-5'>
           <h1 className='title'>Benjamin Grinthal</h1>

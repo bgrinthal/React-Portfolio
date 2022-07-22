@@ -2,7 +2,8 @@
     background-color: #E47960;
 }
 
-img {
+.headshot {
     max-width: 250px;
     width: 100%;
+    border: 5px solid black;
 }
