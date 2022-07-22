@@ -48,12 +48,14 @@ export default function Projects() {
             <img src={require("../assets/images/movie.jpg")} alt="Movie Review Site" className='mt-5 img'></img>
             <h4 className='projectTitle'>IMDMe Movie Review</h4>
           </a>
-          <p>.</p>
+          <p>A site to create an account then review movies and comment on others reviews.  An MVC structured application that uses node.js and express to create a restfull API as well as handlebars to render template and MySQL for store and modify data</p>
         </div>
-        <div className='col-sm-6'>
+        <div className='col-sm-6 relative'>
           <a href='#'>
             <img src={require("../assets/images/coding.jpeg")} alt="Coming Soon!" className='mt-5 img'></img>
+            <h4 className='projectTitle'>Coming Soon!</h4>
           </a>
+          <p>Stay tuned!</p>
         </div>
       </div>
     </div>
