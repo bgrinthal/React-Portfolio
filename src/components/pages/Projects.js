@@ -8,19 +8,19 @@ export default function Projects() {
       <div className='row text-center'>
         <div className='col-sm mt-5'>
           <h1 className='title'>Projects</h1>
-          <p>Below is a list of a few projects I have completed using many different languages and technologies.  For a full list, visit my github profile found on the "Contact Me" tab!</p>
+          {/* <p>Below is a list of a few projects I have completed using many different languages and technologies.  For a full list, visit my github profile found on the "Contact Me" tab!</p> */}
         </div>
       </div>
       <div className='row text-center'>
         <div className='col-sm-6 relative'>
-          <a href='https://bgrinthal.github.io/Password-Generator/'>
+          <a href='https://bgrinthal.github.io/Password-Generator/' target="_blank">
             <img src={require("../assets/images/password.jpg")} alt="Password Generator" className='mt-5 img'></img>
             <h4 className='projectTitle'>Password Generator</h4>
           </a>
           <p>Generate an entirely random password string given user character and length input.  A mostly JavaScript application that displays using HTML and styling in CSS.</p>
         </div>
         <div className='col-sm-6 relative'>
-          <a href='https://bgrinthal.github.io/Weather-Tracker/'>
+          <a href='https://bgrinthal.github.io/Weather-Tracker/' target="_blank">
             <img src={require("../assets/images/weather.jpg")} alt="Weather Tracker" className='mt-5 img'></img>
             <h4 className='projectTitle'>Weather Forecast API</h4>
           </a>
@@ -29,14 +29,14 @@ export default function Projects() {
       </div>
       <div className='row text-center'>
         <div className='col-sm-6 relative'>
-          <a href='https://employee-tracker-bg22.herokuapp.com/'>
+          <a href='https://employee-tracker-bg22.herokuapp.com/' target="_blank">
             <img src={require("../assets/images/employee.jpg")} alt="Employee Tracker" className='mt-5 img'></img>
             <h4 className='projectTitle'>Employee Tracker</h4>
           </a>
           <p>Business tracking applications that allows user to add and view deparments, roles, employees, and more.  Uses node.js and MySQL to display and manage data.</p>
         </div>
         <div className='col-sm-6 relative'>
-          <a href='https://note-taker-bg22.herokuapp.com/'>
+          <a href='https://note-taker-bg22.herokuapp.com/' target="_blank">
             <img src={require("../assets/images/notes.jpg")} alt="Note Taker" className='mt-5 img'></img>
             <h4 className='projectTitle'>Note Taker</h4>
           </a>
@@ -45,14 +45,14 @@ export default function Projects() {
       </div>
       <div className='row text-center mb-5'>
         <div className='col-sm-6 relative'>
-          <a href='https://movie-review-site-bg22.herokuapp.com/'>
+          <a href='https://movie-review-site-bg22.herokuapp.com/' target="_blank">
             <img src={require("../assets/images/movie.jpg")} alt="Movie Review Site" className='mt-5 img'></img>
             <h4 className='projectTitle'>IMDMe Movie Review</h4>
           </a>
           <p>A site to create an account then review movies and comment on others reviews.  An MVC structured application that uses node.js and express to create a restfull API as well as handlebars to render template and MySQL for store and modify data</p>
         </div>
         <div className='col-sm-6 relative'>
-          <a href='#'>
+          <a href='#' target="_blank">
             <img src={require("../assets/images/coding.jpeg")} alt="Coming Soon!" className='mt-5 img'></img>
             <h4 className='projectTitle'>Coming Soon!</h4>
           </a>

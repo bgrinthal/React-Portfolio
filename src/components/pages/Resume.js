@@ -92,7 +92,7 @@ export default function Resume() {
             <li>Design retaining rings meeting company and customer tolerance and material standards</li>
             <li>Document drawing edits using Engineering Change Notices (ECN)</li>
           </ul>
-          <h3>EDUCATION</h3>
+          <h3 className='title'>EDUCATION</h3>
           <h4>Bachelor of Science : Mechanical Engineering, 05/2016</h4>
           Rutgers, The State University of New Jersey - New Brunswick, NJ Aerospace Engineering Certificate
         </div>
