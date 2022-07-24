@@ -1,3 +1,33 @@
 .title {
     background-color: navy;
 }
+
+.form {
+    margin: 20px;
+    text-align: center;
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.message {
+    width: 50%;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.button{
+    width: 50%;
+    margin-top: 8px;
+}
