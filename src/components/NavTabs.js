@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styles/NavBar.css'
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='container-fluid'>
