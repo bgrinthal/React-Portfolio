@@ -46,11 +46,11 @@ function Form() {
       return
     }
     if (name && email && message) {
-      setErrorMessage(`Hello ${name}, thank yoou for reaching out!`)
+      setErrorMessage(`Hello ${name}, thank you for reaching out!`)
     }
 
     //compose email filling out fields
-    window.open(`mailto:bgrinthal@gmail.com?subject=${name}?sent?a?message&body=${message}`);
+    window.open(`mailto:bgrinthal@gmail.com?subject=${name} sent a message&body=${message}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');

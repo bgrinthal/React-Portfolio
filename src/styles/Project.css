@@ -1,12 +1,6 @@
-.img {
-  max-width: 500px;
-  width: 100%;
-  height: 150px;
-  border-radius: 25px;
-}
-
 .relative {
   position: relative;
+  left: 20%;
 }
 
 .projectTitle {
@@ -37,24 +31,6 @@
 .gitIcon:hover {
   color: lightblue;
 }
-
-.description{
-  text-align: center;
-  margin-left: 11%;
-  width: 79%;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-
-
-
-
-
-
 
 .card-size{
   width: 25rem;

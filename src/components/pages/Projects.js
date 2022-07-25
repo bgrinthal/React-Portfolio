@@ -5,14 +5,14 @@ import '../../styles/Project.css';
 export default function Projects() {
   return (
     <div class="container text-center">
-      <div class="row my-5">
-        <div class="col-sm-12">
+      <div class="row mt-2">
+        <div class="col-md-12">
           <h1 className='title'>Projects</h1>
           <p>Below is a list of a few projects I have completed using many different languages and technologies.  Click on the box to view the deployed applications or click on the GitHub icon to view the repository.  For a full list of projects, feel free to visit my GitHub page found at the bottom of the page or under the "Contact Me" tab!</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6 mt-2">
           <div className="card card-size relative">
             <a href='https://bgrinthal.github.io/Password-Generator/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/password.jpg")} className="card-img-top img-size" alt="Password Generator" />
@@ -24,7 +24,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6 mt-2">
           <div className="card card-size relative">
             <a href='https://bgrinthal.github.io/Weather-Tracker/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/weather.jpg")} className="card-img-top img-size" alt="Weather Tracker" />
@@ -37,8 +37,8 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-sm-6">
+      <div class="row mt-2">
+        <div class="col-md-6  mt-2">
           <div className="card card-size relative">
             <a href='https://employee-tracker-bg22.herokuapp.com/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/employee.jpg")} className="card-img-top img-size" alt="Employee Tracker" />
@@ -50,7 +50,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6  mt-2">
           <div className="card card-size relative">
             <a href='https://note-taker-bg22.herokuapp.com/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/notes.jpg")} className="card-img-top img-size" alt="Note Taker" />
@@ -63,8 +63,8 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-sm-6">
+      <div class="row mt-2">
+        <div class="col-md-6  mt-2">
           <div className="card card-size relative">
             <a href='https://movie-review-site-bg22.herokuapp.com/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/movie.jpg")} className="card-img-top img-size" alt="IMDMe Movie Review" />
@@ -76,7 +76,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6  mt-2">
           <div className="card card-size relative">
             <a href='https://bgrinthal.github.io/Work-Day-Planner/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/planner.jpg")} className="card-img-top img-size" alt="Work Day Planner" />
