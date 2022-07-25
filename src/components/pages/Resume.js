@@ -46,11 +46,11 @@ export default function Resume() {
               applications deployed on GitHub</li>
             <li>Some examples include: </li>
             <ul>
-              <li>Password Generator: JavaScript application to take user input of desired characters to
+              <li><u>Password Generator:</u> JavaScript application to take user input of desired characters to
                 be used and returns randomized sequence of the selected characters</li>
-              <li>Weather Tracker: Uses API's and takes in city names to display popular weather infor-
+              <li><u>Weather Tracker:</u> Uses API's and takes in city names to display popular weather infor-
                 mation in a the area for the coming week</li>
-              <li>Team Profile Generator: A Node.js command line application to build then display a
+              <li><u>Team Profile Generator:</u> A Node.js command line application to build then display a
                 professional team using object oriented programing</li>
             </ul>
           </ul>

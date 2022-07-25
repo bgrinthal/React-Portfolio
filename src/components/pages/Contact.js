@@ -1,33 +1,5 @@
-// import React from 'react';
-
-// import '../../styles/Contact.css';
-
-// export default function Contact() {
-//   return (
-//     <div className='container'>
-//       <div className='row text-center'>
-//         <div className='col-sm mt-5'>
-//           <h1 className='text-center title'>Contact Me</h1>
-//         </div>
-//       </div>
-//       <div className='row text-center'>
-//         <div className='col-sm mt-5'>
-//           <p>Phone: 732-616-8142</p>
-//           <p> Email: <a class="c-links" href="mailto:bgrinthal@gmail.com" target="_blank"
-//             rel="noopener noreferrer"> bgrinthal@gmail.com</a></p>
-//           <p> Github: <a class="c-links" href="https://github.com/bgrinthal" target="_blank"> bgrinthal</a></p>
-//           <p> Linkedin: <a class="c-links" href="https://www.linkedin.com/in/benjamin-grinthal-b05003122/"
-//             target="_blank"> Benjamin Grinthal</a></p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 import React, { useState } from 'react';
 import '../../styles/Contact.css';
-
-
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -46,7 +18,7 @@ function Form() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, username, and password
+    // Based on the input type, we set the state of either email, name, and message
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'name') {
@@ -64,22 +36,20 @@ function Form() {
       setErrorMessage('Name must be entered')
       return
     }
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+    // First we check to see if the email is not valid or if the name or message is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email)) {
       setErrorMessage('Valid email address must be entered');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
     if (!message) {
       setErrorMessage('Message must be entered')
       return
     }
-
     if (name && email && message) {
       setErrorMessage(`Hello ${name}, thank yoou for reaching out!`)
     }
 
+    //compose email filling out fields
     window.open(`mailto:bgrinthal@gmail.com?subject=${name}?sent?a?message&body=${message}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
