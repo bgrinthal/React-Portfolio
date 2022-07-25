@@ -13,7 +13,7 @@
   position: absolute;
   text-align: center;
   margin-left: 15%;
-  top: 35%;
+  top: 30%;
   width: 65%;
   text-align: center;
   color: white;
@@ -36,4 +36,16 @@
 
 .gitIcon:hover {
   color: blue;
+}
+
+.description{
+  text-align: center;
+  margin-left: 11%;
+  width: 79%;
+  /* border: 1px solid black; */
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }

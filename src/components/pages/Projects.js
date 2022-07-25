@@ -19,7 +19,7 @@ export default function Projects() {
             <a href='https://github.com/bgrinthal/Password-Generator' target="_blank"><i className='fa fa-github gitIcon'></i></a>
             </h4>
           </a>
-          <p>Generate an entirely random password string given user character and length input.  A mostly JavaScript application that displays using HTML and styling in CSS.</p>
+          <p className='description'>Generate an entirely random password string given user character and length input.  A mostly JavaScript application that displays using HTML and styling in CSS.</p>
         </div>
         <div className='col-sm-6 relative'>
           <a href='https://bgrinthal.github.io/Weather-Tracker/' target="_blank">
@@ -28,7 +28,7 @@ export default function Projects() {
             <a href='https://github.com/bgrinthal/Weather-Tracker' target="_blank"><i className='fa fa-github gitIcon'></i></a>
             </h4>
           </a>
-          <p>Application that displays local weather and 5 day forecast when user searches for city.  Uses Javascript to fetch API data and display relevant info to user.</p>
+          <p className='description'>Application that displays local weather and 5 day forecast when user searches for city.  Uses Javascript to fetch API data and display relevant info to user.</p>
         </div>
       </div>
       <div className='row text-center'>
@@ -39,7 +39,7 @@ export default function Projects() {
             <a href='https://github.com/bgrinthal/Employee-Tracker' target="_blank"><i className='fa fa-github gitIcon'></i></a>
             </h4>
           </a>
-          <p>Business tracking applications that allows user to add and view deparments, roles, employees, and more.  Uses node.js and MySQL to display and manage data.</p>
+          <p className='description'>Business tracking applications that allows user to add and view deparments, roles, employees, and more.  Uses node.js and MySQL to display and manage data.</p>
         </div>
         <div className='col-sm-6 relative'>
           <a href='https://note-taker-bg22.herokuapp.com/' target="_blank">
@@ -48,7 +48,7 @@ export default function Projects() {
             <a href='https://github.com/bgrinthal/Note-Taker' target="_blank"><i className='fa fa-github gitIcon'></i></a>
             </h4>
           </a>
-          <p>Note taking applications that allows the user to revord a note title and body.  This note is saved in local storage to be brought up again after the user closes and repoens the page.  Uses node.js, JavaScript and express for routing.</p>
+          <p className='description'>Note taking applications that allows the user to revord a note title and body.  This note is saved in local storage to be brought up again after the user closes and repoens the page.  Uses node.js, JavaScript and express for routing.</p>
         </div>
       </div>
       <div className='row text-center mb-5'>
@@ -59,7 +59,7 @@ export default function Projects() {
             <a href='https://github.com/bgrinthal/movie-review-site' target="_blank"><i className='fa fa-github gitIcon'></i></a>
             </h4>
           </a>
-          <p>A site to create an account then review movies and comment on others reviews.  An MVC structured application that uses node.js and express to create a restfull API as well as handlebars to render template and MySQL for store and modify data</p>
+          <p className='description'>A site to create an account then review movies and comment on others reviews.  An MVC structured application that uses node.js and express to create a restfull API as well as handlebars to render template and MySQL for store and modify data</p>
         </div>
         <div className='col-sm-6 relative'>
           <a href='#' target="_blank">
@@ -68,7 +68,7 @@ export default function Projects() {
             <a href='#' target="_blank"><i className='fa fa-github gitIcon'></i></a>
             </h4>
           </a>
-          <p>Stay tuned!</p>
+          <p className='description'>Stay tuned!</p>
         </div>
       </div>
     </div>
