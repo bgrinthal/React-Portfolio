@@ -31,18 +31,17 @@
 .gitIcon {
   font-size: 50px;
   margin-left: 15px;
-  color: navy;
+  color: blue;
 }
 
 .gitIcon:hover {
-  color: blue;
+  color: lightblue;
 }
 
 .description{
   text-align: center;
   margin-left: 11%;
   width: 79%;
-  /* border: 1px solid black; */
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;

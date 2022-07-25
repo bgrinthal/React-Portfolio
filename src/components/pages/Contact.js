@@ -25,8 +25,9 @@
 // }
 
 import React, { useState } from 'react';
-// import './style.css';
 import '../../styles/Contact.css';
+
+
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -76,8 +77,10 @@ function Form() {
     }
 
     if (name && email && message) {
-      setErrorMessage(`Thank you ${name}, your message has been sent!`)
+      setErrorMessage(`Hello ${name}, thank yoou for reaching out!`)
     }
+
+    window.open(`mailto:bgrinthal@gmail.com?subject=${name}?sent?a?message&body=${message}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
@@ -87,7 +90,7 @@ function Form() {
 
   return (
     <div className='form'>
-      <h1>Contact me:</h1>
+      <h1 className='title'>Contact me:</h1>
       <form className="form">
         <h4 className='mt-3'>Name:</h4>
         <input className="name"
