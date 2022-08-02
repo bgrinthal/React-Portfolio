@@ -66,13 +66,13 @@ export default function Projects() {
       <div class="row mt-2">
         <div class="col-md-6  mt-2">
           <div className="card card-size relative">
-            <a href='https://movie-review-site-bg22.herokuapp.com/' target="_blank" rel="noreferrer" className='hover'>
-              <img src={require("../assets/images/movie.jpg")} className="card-img-top img-size" alt="IMDMe Movie Review" />
-              <h4 className='projectTitle'>IMDMe Movie Review
-                <a href='https://github.com/bgrinthal/movie-review-site' target="_blank" rel="noreferrer"><i className='fa fa-github gitIcon'></i></a></h4>
+            <a href='https://react-fitness-2022.herokuapp.com/' target="_blank" rel="noreferrer" className='hover'>
+              <img src={require("../assets/images/workout.jpg")} className="card-img-top img-size" alt="IMDMe Movie Review" />
+              <h4 className='projectTitle'>React Fitness
+                <a href='https://github.com/bgrinthal/react-fitness' target="_blank" rel="noreferrer"><i className='fa fa-github gitIcon'></i></a></h4>
             </a>
             <div className="card-body">
-              <p className="card-text">A site to create an account then review movies and comment on others reviews.  An MVC structured application that uses node.js and express to create a restfull API as well as handlebars to render template and MySQL for store and modify data</p>
+              <p className="card-text">React Fitness is a MERN stack application that allows users, once an account is created, to manage their daily workout routine. Users can select a number of different exercises from five main muscle groups and incorporate those exercises into their daily routine.</p>
             </div>
           </div>
         </div>
