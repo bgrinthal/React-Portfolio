@@ -39,7 +39,7 @@ export default function Resume() {
         </div>
         <div className='col-sm-9 mt-5 mb-5'>
           <h3 className='title'>PROFESSIONAL SUMMARY</h3>
-          Determined mechanical engineering with over 6 years of experience. Seeking to use proven design, problem-solving, and management skills to excel any position. Collaborative team player with track record of delivering multiple, concurrent projects in fast-paced environments.
+          Proven track record of problem-solving as a mechanical engineer looking to turn interest and passion of coding into a career. Experience working with clients and delivering projects on fast- paced timelines in solo and group environments. Excited to leverage my skills and previous work experience to continue to assist in leading teams to success.
           <h3 className='title'>RELEVANT EXPERIENCE</h3>
           <h4>Rutgers Coding Bootcamp Certification, 05/2022 to 08/2022</h4>
           <h5>Music Charts & Concerts | <a href='https://github.com/bgrinthal/Music-Concerts-API'>https://github.com/bgrinthal/Music-Concerts-API</a></h5>
