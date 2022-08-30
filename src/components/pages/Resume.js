@@ -42,7 +42,7 @@ export default function Resume() {
           Proven track record of problem-solving as a mechanical engineer looking to turn interest and passion of coding into a career. Experience working with clients and delivering projects on fast- paced timelines in solo and group environments. Excited to leverage my skills and previous work experience to continue to assist in leading teams to success.
           <h3 className='title'>RELEVANT EXPERIENCE</h3>
           <h4>Rutgers Coding Bootcamp Certification, 05/2022 to 08/2022</h4>
-          <h5>Music Charts & Concerts | <a href='https://github.com/bgrinthal/Music-Concerts-API'>https://github.com/bgrinthal/Music-Concerts-API</a></h5>
+          <h5>Music Charts & Concerts | <a href='https://github.com/bgrinthal/Music-Concerts-API' target="_blank">https://github.com/bgrinthal/Music-Concerts-API</a></h5>
           <ul>
             <li>Reactive music application featuring HTML, JavaScript, and Bootstrap as a CSS framework</li>
             <li>Utilizes Ticket Master, Spotify, Billboard100, and Open Weather APIs</li>
@@ -50,7 +50,7 @@ export default function Resume() {
             <li>Displays local results by date and popularity showing the venue, artist, event date, and link to
               purchase tickets, as well as a weather forecast incase the venue is outdoors </li>
           </ul>
-          <h5>React Fitness | <a href='https://github.com/bgrinthal/react-fitness'>https://github.com/bgrinthal/react-fitness</a> </h5>
+          <h5>React Fitness | <a href='https://github.com/bgrinthal/react-fitness' target="_blank">https://github.com/bgrinthal/react-fitness</a> </h5>
           <ul>
             <li>Reactive fitness application utilizing the MERN stack (MongoDB, Express, React, and Node)</li>
             <li>Includes JWT Authentication that restricts a users access to the profile “daily routine” page
@@ -59,7 +59,7 @@ export default function Resume() {
             <li>Profile displays all added workouts and allows user to save notes, sets, reps, and weight used
               in current exercise</li>
           </ul>
-          <h5>Employee Manager | <a href='https://github.com/bgrinthal/Employee-Tracker'>https://github.com/bgrinthal/Employee-Tracker</a> </h5>
+          <h5>Employee Manager | <a href='https://github.com/bgrinthal/Employee-Tracker' target="_blank">https://github.com/bgrinthal/Employee-Tracker</a> </h5>
           <ul>
             <li>A command line application that manages a database of employees in a company using Node.js with JavaScript</li>
             <li>Stores and retrieves company data using the relational database of MySQL containing the table employee, department, and role</li>
