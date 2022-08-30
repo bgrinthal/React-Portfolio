@@ -19,20 +19,22 @@ export default function Resume() {
             <li>MATLAB</li>
             <li>SolidWorks / AutoCAD</li>
             <li>Microsoft Visio</li>
-            <li>Management and delegation</li>
+            <li>Management</li>
             <li>3D Modeling/ Design</li>
-            <li>Product Development</li>
-            <li>Mechanical Design</li>
             <li>Teamwork/ Collaboration</li>
             <li>Manufacturing Process</li>
             <li>JavaScript,HTML5,CSS</li>
             <li>Bootstrap</li>
             <li>JQuery</li>
-            <li>Express.js,Node.js</li>
-            <li>Git,Heroku</li>
+            <li>Express.js</li>
+            <li>Node.js</li>
+            <li>Git</li>
             <li>Object Oriented Programming</li>
             <li>MySQL</li>
+            <li>Sequelize</li>
             <li>React</li>
+            <li>MVC Paradigm</li>
+            <li>Restful API's</li>
           </ul>
         </div>
         <div className='col-sm-9 mt-5 mb-5'>
@@ -40,19 +42,28 @@ export default function Resume() {
           Determined mechanical engineering with over 6 years of experience. Seeking to use proven design, problem-solving, and management skills to excel any position. Collaborative team player with track record of delivering multiple, concurrent projects in fast-paced environments.
           <h3 className='title'>RELEVANT EXPERIENCE</h3>
           <h4>Rutgers Coding Bootcamp Certification, 05/2022 to 08/2022</h4>
+          <h5>Music Charts & Concerts | <a href='https://github.com/bgrinthal/Music-Concerts-API'>https://github.com/bgrinthal/Music-Concerts-API</a></h5>
           <ul>
-            <li>3 month intensive course in a variety of programming languages and technologies</li>
-            <li>Created a diverse portfolio in group and solo projects to design reactive front and back end
-              applications deployed on GitHub</li>
-            <li>Some examples include: </li>
-            <ul>
-              <li><u>Password Generator:</u> JavaScript application to take user input of desired characters to
-                be used and returns randomized sequence of the selected characters</li>
-              <li><u>Weather Tracker:</u> Uses API's and takes in city names to display popular weather infor-
-                mation in a the area for the coming week</li>
-              <li><u>Team Profile Generator:</u> A Node.js command line application to build then display a
-                professional team using object oriented programing</li>
-            </ul>
+            <li>Reactive music application featuring HTML, JavaScript, and Bootstrap as a CSS framework</li>
+            <li>Utilizes Ticket Master, Spotify, Billboard100, and Open Weather APIs</li>
+            <li>Allows user to browse current trending music and search for local venues</li>
+            <li>Displays local results by date and popularity showing the venue, artist, event date, and link to
+              purchase tickets, as well as a weather forecast incase the venue is outdoors </li>
+          </ul>
+          <h5>React Fitness | <a href='https://github.com/bgrinthal/react-fitness'>https://github.com/bgrinthal/react-fitness</a> </h5>
+          <ul>
+            <li>Reactive fitness application utilizing the MERN stack (MongoDB, Express, React, and Node)</li>
+            <li>Includes JWT Authentication that restricts a users access to the profile “daily routine” page
+              unless signed in</li>
+            <li>User can view a demo of each workout and add/remove it from their profile page</li>
+            <li>Profile displays all added workouts and allows user to save notes, sets, reps, and weight used
+              in current exercise</li>
+          </ul>
+          <h5>Employee Manager | <a href='https://github.com/bgrinthal/Employee-Tracker'>https://github.com/bgrinthal/Employee-Tracker</a> </h5>
+          <ul>
+            <li>A command line application that manages a database of employees in a company using Node.js with JavaScript</li>
+            <li>Stores and retrieves company data using the relational database of MySQL containing the table employee, department, and role</li>
+            <li>User can follow command prompts which activates queries to to add, edit, remove or view information</li>
           </ul>
           <h3 className='title'>WORK HISTORY</h3>
           <h4>OSP Engineer 11/2021 to 04/2022 </h4>

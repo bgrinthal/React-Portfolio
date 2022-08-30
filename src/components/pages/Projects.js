@@ -14,25 +14,25 @@ export default function Projects() {
       <div class="row">
         <div class="col-md-6 mt-2">
           <div className="card card-size relative">
+            <a href='https://bgrinthal.github.io/Music-Concerts-API/' target="_blank" rel="noreferrer" className='hover'>
+              <img src={require("../assets/images/music.jpg")} className="card-img-top img-size" alt="Music Concerts API" />
+              <h4 className='projectTitle'>Music Concerts API
+                <a href='https://github.com/bgrinthal/Music-Concerts-API' target="_blank" rel="noreferrer"><i className='fa fa-github gitIcon'></i></a></h4>
+            </a>
+            <div className="card-body">
+              <p className="card-text">One stop shop for last minute music and concert lovers.  Uses calls to several API's including Billboard Top 100, Spotify, Ticketmaster, and Open Weather to display popular music and search for venues to watch your favorite artists.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-2">
+          <div className="card card-size relative">
             <a href='https://bgrinthal.github.io/Password-Generator/' target="_blank" rel="noreferrer" className='hover'>
               <img src={require("../assets/images/password.jpg")} className="card-img-top img-size" alt="Password Generator" />
               <h4 className='projectTitle'>Password Generator
                 <a href='https://github.com/bgrinthal/Password-Generator' target="_blank" rel="noreferrer"><i className='fa fa-github gitIcon'></i></a></h4>
             </a>
             <div className="card-body">
-              <p className="card-text">Generate an entirely random password string given user character and length input.  A mostly JavaScript application that displays using HTML and styling in CSS.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mt-2">
-          <div className="card card-size relative">
-            <a href='https://bgrinthal.github.io/Weather-Tracker/' target="_blank" rel="noreferrer" className='hover'>
-              <img src={require("../assets/images/weather.jpg")} className="card-img-top img-size" alt="Weather Tracker" />
-              <h4 className='projectTitle'>Weather Forecast API
-                <a href='https://github.com/bgrinthal/Weather-Tracker' target="_blank" rel="noreferrer"><i className='fa fa-github gitIcon'></i></a></h4>
-            </a>
-            <div className="card-body">
-              <p className="card-text">Application that displays local weather and 5 day forecast when user searches for city.  Uses Javascript to fetch API data and display relevant info to user.</p>
+              <p className="card-text">Generate an entirely random password string given user character and length input. A mostly JavaScript application that displays using HTML and styling in CSS.</p>
             </div>
           </div>
         </div>
