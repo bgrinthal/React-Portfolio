@@ -13,7 +13,7 @@ export default function About() {
         </div>
         <div className='col-sm-9 mt-5'>
           <h2 className='title typewriter mb-4'>Hello World!  I am Ben Grinthal, Full Stack Dev.</h2>
-          <p>
+          <p className='summary'> 
             I am a Rutgers University graduate with a bachelor's degree in mechanical engineering and a
             certificate in aerospace engineering. Over the last 10 years, I have gained experience in different
             engineering fields from manufacturing to quality control to design, learning the mechanics of

@@ -1,6 +1,6 @@
-.title {
-    background-color: navy;
-}
+/* .title {
+    background-color: #04a582;
+} */
 
 .headshot {
     max-width: 250px;
@@ -8,14 +8,14 @@
     border: 5px solid black;
 }
 
-/* p {
-    
-} */
+.summary {
+    color: #04a582;
+}
 
 .typewriter {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
+    border-right: .15em solid #04a582;
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -48,6 +48,6 @@
     }
 
     50% {
-        border-color: orange;
+        border-color: #08c94f;
     }
 }
